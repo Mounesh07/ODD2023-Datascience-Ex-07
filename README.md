@@ -16,7 +16,6 @@ Apply Feature selection techniques to all the features of the data set
 ### STEP 4
 Save the data to the file
 
-
 # CODE
 ```
 NAME: MOUNESH P
@@ -49,7 +48,6 @@ df.isnull().sum()
 plt.title("Dataset with outliers")
 df.boxplot()
 plt.show()
-
 cols = ['Age','SibSp','Fare']
 Q1 = df[cols].quantile(0.25)
 Q3 = df[cols].quantile(0.75)
